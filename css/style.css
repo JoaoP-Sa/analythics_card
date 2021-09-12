@@ -229,7 +229,7 @@ h1, strong{
 
 @media screen and (max-width: 768px){
     section{
-        padding: 50px 0 50px 0;
+        padding: 570px 0 50px 0;
     }
 
     .mycard{
@@ -327,10 +327,6 @@ h1, strong{
 }
 
 @media screen and (max-width: 360px){
-    section{
-        padding-top: 470px;
-    }
-
     .image-card{
         border-top-right-radius: 10px;
         width: 100%;
