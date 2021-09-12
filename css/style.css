@@ -327,6 +327,10 @@ h1, strong{
 }
 
 @media screen and (max-width: 360px){
+    section{
+        padding-top: 470px;
+    }
+
     .image-card{
         border-top-right-radius: 10px;
         width: 100%;
