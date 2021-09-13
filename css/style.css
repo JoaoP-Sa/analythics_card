@@ -11,10 +11,6 @@ html, body{
     background-color: #0a0c1b;
 }
 
-header, footer{
-    height: 50px;
-}
-
 .master{
     position: relative;
     top: 50%;
@@ -238,6 +234,14 @@ h1, strong{
 }
 
 @media screen and (max-width: 768px){
+    header{
+        height: 600px;
+    }
+
+    footer{
+        height: 60px;
+    }
+
     .mycard{
         flex-direction: column;
         width: 340px;
@@ -333,6 +337,10 @@ h1, strong{
 }
 
 @media screen and (max-width: 360px){
+    header{
+        height: 350px;
+    }
+
     .image-card{
         border-top-right-radius: 10px;
         width: 100%;
